@@ -7,11 +7,11 @@ namespace VendingMachine.App
     {
         static void Main(string[] args)
         {
-            double bill = 0;
-            double coins = 0;
-            double money = 0; 
-            int productId = 0;
+            string bill = string.Empty;
+            string coins = string.Empty;            
+            string productId = string.Empty;
             string ans = string.Empty;
+            double money = 0;
 
             IOperations op = new Operations();
 
@@ -21,7 +21,8 @@ namespace VendingMachine.App
             while (true)
             {
                 Console.Write("Please enter bill (100, 50, 20):");
-                bill = Convert.ToDouble(Console.ReadLine());
+
+                bill = Console.ReadLine();                         
 
                 if (op.ValidateBill(bill) == true) break;
                 Console.WriteLine("\nInvalid bill. We accept 100, 50 or 20 bill only!\n\n");
@@ -29,15 +30,16 @@ namespace VendingMachine.App
 
             //Accept Coins
             while (true)
-            {               
+            {
                 Console.Write("Please enter coins (10, 5, 1, 0.50, 0.25):");
-                coins = Convert.ToDouble(Console.ReadLine());
+
+                coins = Console.ReadLine();
 
                 if (op.ValidateCoins(coins) == true) break;
                 Console.WriteLine("\nInvalid coins. We accept 10, 5, 1, 0.50 or 0.25 coins only!\n\n");
             } 
 
-            money = bill + coins;
+            money = Convert.ToDouble(bill) + Convert.ToDouble(coins);
 
             //Populate Product
             Console.WriteLine("\nList of Products ");
@@ -51,14 +53,14 @@ namespace VendingMachine.App
             while (true)
             {
                 Console.Write("\nPlease select product: ");
-                productId = Convert.ToInt32(Console.ReadLine());
+                productId = Console.ReadLine();
 
                 var sc = op.ValidateProduct(productId, money);
                 if (sc.IsValid == true) break;
                 else Console.WriteLine(sc.Message);
             }
 
-            Product selectedProduct = op.GetProduct(productId);
+            Product selectedProduct = op.GetProduct(Convert.ToInt32(productId));
             Console.WriteLine(string.Format("\nYou ordered {0} for the amount of {1}.", selectedProduct.ProductName, selectedProduct.Price));
 
             while (true)
