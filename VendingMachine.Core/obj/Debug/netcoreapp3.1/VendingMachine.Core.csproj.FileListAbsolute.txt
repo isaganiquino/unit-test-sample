@@ -1,0 +1,14 @@
+D:\DevPartners\Repositories\unit-test\VendingMachine\VendingMachine.Core\bin\Debug\netcoreapp3.1\VendingMachine.Core.deps.json
+D:\DevPartners\Repositories\unit-test\VendingMachine\VendingMachine.Core\bin\Debug\netcoreapp3.1\VendingMachine.Core.dll
+D:\DevPartners\Repositories\unit-test\VendingMachine\VendingMachine.Core\bin\Debug\netcoreapp3.1\VendingMachine.Core.pdb
+D:\DevPartners\Repositories\unit-test\VendingMachine\VendingMachine.Core\obj\Debug\netcoreapp3.1\VendingMachine.Core.AssemblyInfoInputs.cache
+D:\DevPartners\Repositories\unit-test\VendingMachine\VendingMachine.Core\obj\Debug\netcoreapp3.1\VendingMachine.Core.AssemblyInfo.cs
+D:\DevPartners\Repositories\unit-test\VendingMachine\VendingMachine.Core\obj\Debug\netcoreapp3.1\VendingMachine.Core.dll
+D:\DevPartners\Repositories\unit-test\VendingMachine\VendingMachine.Core\obj\Debug\netcoreapp3.1\VendingMachine.Core.pdb
+D:\DevPartners\Repositories\unit-test-sample\VendingMachine.Core\bin\Debug\netcoreapp3.1\VendingMachine.Core.deps.json
+D:\DevPartners\Repositories\unit-test-sample\VendingMachine.Core\bin\Debug\netcoreapp3.1\VendingMachine.Core.dll
+D:\DevPartners\Repositories\unit-test-sample\VendingMachine.Core\bin\Debug\netcoreapp3.1\VendingMachine.Core.pdb
+D:\DevPartners\Repositories\unit-test-sample\VendingMachine.Core\obj\Debug\netcoreapp3.1\VendingMachine.Core.AssemblyInfoInputs.cache
+D:\DevPartners\Repositories\unit-test-sample\VendingMachine.Core\obj\Debug\netcoreapp3.1\VendingMachine.Core.AssemblyInfo.cs
+D:\DevPartners\Repositories\unit-test-sample\VendingMachine.Core\obj\Debug\netcoreapp3.1\VendingMachine.Core.dll
+D:\DevPartners\Repositories\unit-test-sample\VendingMachine.Core\obj\Debug\netcoreapp3.1\VendingMachine.Core.pdb
