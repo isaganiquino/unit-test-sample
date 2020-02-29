@@ -43,6 +43,14 @@ namespace VendingMachine.NUnitTest
             Assert.AreEqual(expected, operations.CalculateChange(money, price));
         }
 
+        [TestCase("1", 30, true)]
+        [TestCase("2", 25, false)]
+        [TestCase("8", 25, false)]
+        public void Should_Return_Valid_Product(string productId, double money, bool expected)
+        {
+            Assert.AreEqual(expected, operations.ValidateProduct(productId, money).IsValid);
+        }
+
         [Test]
         public void Test()
         {
